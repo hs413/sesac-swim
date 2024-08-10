@@ -1,0 +1,9 @@
+import createAxiosInstance from "./customAxiosInstance";
+
+const baseURL = process.env.REACT_APP_API_URL;
+const fastApiBaseURL = process.env.REACT_APP_FASTAPI_URL;
+
+const customAxios = createAxiosInstance(baseURL);
+const fastApiAxios = createAxiosInstance(fastApiBaseURL);
+
+export { customAxios, fastApiAxios };
