@@ -32,5 +32,7 @@
 ### 서비스 배포
 1. [Backend 첫 배포](./docs/deploy/deploy1.md) 
 2. [GitHub Actions 배포 자동화](./docs/deploy/deploy2.md)
+3. [실행 및 중지 스크립트 작성](./docs/deploy/deploy3.md)
+4. [포트포워딩 및 SSL 적용](./docs/deploy/deploy4.md)
 
 
