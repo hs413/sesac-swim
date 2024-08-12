@@ -30,3 +30,7 @@
 ### 소셜 로그인 & JWT
 
 ### 서비스 배포
+1. [Backend 첫 배포](./docs/deploy/deploy1.md) 
+2. [GitHub Actions 배포 자동화](./docs/deploy/deploy2.md)
+
+
