@@ -20,6 +20,9 @@
 
 ### 데이터베이스
 
+![erd](https://github.com/user-attachments/assets/f0178f29-2187-4aa0-ac2a-b778a09d9641)
+
+
 ### 아키텍처
 <img width="1078" alt="아키텍처" src="https://github.com/user-attachments/assets/4d69f78d-a120-4223-b026-143fc53861c5">
 
