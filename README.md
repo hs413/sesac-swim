@@ -21,8 +21,7 @@
 ### 데이터베이스
 
 ### 아키텍처
-
-![스크린샷 2024-08-12 오후 12.13.43.png](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb4a11f11-04a4-4827-b003-5fcc6be57b9c%2Ff242e0f7-8e49-420c-99c4-ffa9c1fa037a%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-08-12_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_12.13.43.png?table=block&id=01680d75-9f06-405d-bcb2-39c4dabae0f3&spaceId=b4a11f11-04a4-4827-b003-5fcc6be57b9c&width=2000&userId=f775a446-408d-46bd-a27d-838e2350d585&cache=v2)
+<img width="1078" alt="아키텍처" src="https://github.com/user-attachments/assets/4d69f78d-a120-4223-b026-143fc53861c5">
 
 ## 작업 내역
 
