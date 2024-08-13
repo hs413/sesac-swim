@@ -88,7 +88,7 @@ public void onAuthenticationSuccess(HttpServletRequest request, HttpServletRespo
 
 **Frontend**
 
-```jsx
+```javascript
 // 리다이렉트 페이지
 localStorage.setItem('accessToken', accessToken);
 localStorage.setItem('refreshToken', refreshToken);

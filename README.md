@@ -26,16 +26,19 @@
 <img width="1078" alt="아키텍처" src="https://github.com/user-attachments/assets/4d69f78d-a120-4223-b026-143fc53861c5">
 
 ## 작업 내역
+해당 프로젝트에서 제가 담당한 작업은 다음과 같습니다
+- 데이터 수집 기능 구현
+- 사용자 인증 기능 구현
+- 서비스 배포
 
 ### 데이터 수집
-[기획 및 기능 개발](./docs/data/data1.md)<br/>
+[데이터 수집](./docs/data/data1.md)<br/>
 
-[//]: # ([리팩터링]&#40;./docs/data/data2.md&#41;)
+[//]: # ([사용자 인증 정보 연동]&#40;./docs/data/data2.md&#41;)
 
 ### 사용자 인증
-[사용자 인증](./docs/auth/data1.md) <br/>
-
-[//]: # ([argument resolver]&#40;./docs/auth/data2.md&#41; <br/>)
+[사용자 인증](./docs/auth/auth1.md) <br/>
+[CustomArgumentResolver](./docs/auth/data2.md) <br/>
 
 
 ### 서비스 배포
