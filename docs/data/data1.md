@@ -54,7 +54,7 @@
 
 **데이터 수집 요청 - Frontend**
 
-```jsx
+```javascript
 const getHealthConnectData = () => {
   healthConnectJsInterface.getDataRecords('2024-06-01T12:00:00.000');
 };
@@ -65,7 +65,7 @@ const getHealthConnectData = () => {
 
 **데이터 수집 이벤트 핸들러 - Android**
 
-```jsx
+```kotlin
 // 이벤트 핸들러 (웹에서 해당 메서드 호출)
 @JavascriptInterface
 fun getDataRecords(date: String) {
@@ -82,7 +82,7 @@ fun getDataRecords(date: String) {
 
 **데이터 조회 - Android**
 
-```jsx
+```kotlin
 // 데이터 조회 메서드
 suspend fun getRecords(date: String): ReadRecordsResponse<ExerciseSessionRecord> {
     val endTime = Instant.now()
@@ -109,15 +109,13 @@ suspend fun getRecords(date: String): ReadRecordsResponse<ExerciseSessionRecord>
 fun sendDataToServer(dataList: List<SendData>) {
     api.sendData(dataList).enqueue(object : Callback<Void> {
         override fun onResponse(call: Call<Void>, response: Response<Void>) {
-            println(response)
             return
         }
 
         override fun onFailure(call: Call<Void>, t: Throwable) {
             return
         }
-    }
-    
+    })
 }
 
 data class SendData (
