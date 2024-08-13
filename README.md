@@ -28,16 +28,20 @@
 ## 작업 내역
 
 ### 데이터 수집
-1. [기획 및 개발](./docs/data/data1.md)
+[기획 및 기능 개발](./docs/data/data1.md)<br/>
 
-[//]: # (2. [리팩터링]&#40;./docs/data/data2.md&#41;)
+[//]: # ([리팩터링]&#40;./docs/data/data2.md&#41;)
 
-### 소셜 로그인 & JWT
+### 사용자 인증
+[사용자 인증](./docs/auth/data1.md) <br/>
+
+[//]: # ([argument resolver]&#40;./docs/auth/data2.md&#41; <br/>)
+
 
 ### 서비스 배포
-1. [Backend 첫 배포](./docs/deploy/deploy1.md) 
-2. [GitHub Actions 배포 자동화](./docs/deploy/deploy2.md)
-3. [실행 및 중지 스크립트 작성](./docs/deploy/deploy3.md)
-4. [포트포워딩 및 SSL 적용](./docs/deploy/deploy4.md)
-5. [클라우드 플랫폼 이전](./docs/deploy/deploy5.md)
+[Backend 첫 배포](./docs/deploy/deploy1.md) <br/>
+[GitHub Actions 배포 자동화](./docs/deploy/deploy2.md) <br/>
+[실행 및 중지 스크립트 작성](./docs/deploy/deploy3.md) <br/>
+[포트포워딩 및 SSL 적용](./docs/deploy/deploy4.md) <br/>
+[클라우드 플랫폼 이전](./docs/deploy/deploy5.md) <br/>
 
