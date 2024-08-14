@@ -35,7 +35,7 @@
 
 **Android**
 
-```jsx
+```kotlin
 @JavascriptInterface
 fun getDataRecords(date: String) {
     CoroutineScope(Dispatchers.IO).launch {
