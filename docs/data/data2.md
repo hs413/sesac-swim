@@ -16,7 +16,8 @@
 1. 안드로이드에서 사용자 인증 정보를 처리한다.
 2. 프론트엔드에서 사용자 인증 정보(토큰)을 데이터 요청 시 안드로이드로 넘겨 주고 안드로이드에서 데이터 전송 시 해당 토큰을 사용한다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4a11f11-04a4-4827-b003-5fcc6be57b9c/a7dae1eb-8270-40b1-bfc7-096c755bf7f4/image.png)
+<img src="https://github.com/user-attachments/assets/6e71ace7-e92d-4704-a267-1af1f9b92dce" width="500">
+
 
 두 가지 해결 방안 모두 안드로이드에서 백엔드로 데이터를 전송한다는 흐름을 수정하지 않고 사용자 인증 정보를 위한 기능을 안드로이드에서 추가하여 처리하는 방법이었습니다.
 
@@ -26,7 +27,7 @@
 
 데이터 전송 로직을 수정하지 않고는 문제를 쉽게 해결할 수 없을 것이라고 판단하여 생각을 바꿔서 데이터를 프론트엔드로 반환하여 프론트엔드에서 데이터를 전송하는 방법을 생각하게 되었습니다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4a11f11-04a4-4827-b003-5fcc6be57b9c/19251285-fe7b-4569-92f4-cc831d8897e6/image.png)
+<img src="https://github.com/user-attachments/assets/71668213-7316-4691-b235-72c3d19cc56f" width="500">
 
 이 방법은 안드로이드의 추가 개발이 필요하지 않고 데이터를 프론트에 반환하도록 수정만 하면 되기 때문에 간단하게 문제를 해결할 수 있을 것이라고 생각했습니다.
 
