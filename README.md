@@ -38,7 +38,7 @@
 
 ### 사용자 인증
 [사용자 인증](./docs/auth/auth1.md) <br/>
-[CustomArgumentResolver](./docs/auth/data2.md) <br/>
+[CustomArgumentResolver](./docs/auth/auth2.md) <br/>
 
 
 ### 서비스 배포
