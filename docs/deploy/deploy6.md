@@ -19,7 +19,7 @@ GCP에서 부하분산기(로드밸런서)를 생성하여 부하분산기의 IP
 
 하위 리소스 경로(domain/accounts/login/ 등)을 통해 접속을 하는 경우 아래와 같이 접근 권한 문제가 발생했습니다.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b4a11f11-04a4-4827-b003-5fcc6be57b9c/18d4cc0e-feb5-403e-be64-cde9c689aa27/image.png)
+<img src="https://github.com/user-attachments/assets/bf75ee84-5bca-4123-90f7-b088574c23a6" width="600">
 
 크롬 개발자 도구의 네트워크 탭이나 콘솔창을 통해 원인을 찾아보려고 했지만 쉽게 찾을 수 없어 배포 방법을 바꿔보기로 했습니다.
 
